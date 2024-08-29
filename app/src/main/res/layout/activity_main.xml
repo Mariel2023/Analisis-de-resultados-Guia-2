@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/LlbOperando1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/operando1" />
+
+    <EditText
+        android:id="@+id/TxtOperando1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:id="@+id/LlbOperando2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/operando2" />
+
+    <EditText
+        android:id="@+id/TxtOperando2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/BtnEnviar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="@string/enviar" />
+
+    <TextView
+        android:id="@+id/LlbResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/resultado" />
+</LinearLayout>

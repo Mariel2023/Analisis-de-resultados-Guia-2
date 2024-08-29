@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application Practica 02 DSM 104</string>
+    <string name="operando1">Ingresa la primer cantidad:</string>
+    <string name="operando2">Ingresa la segunda cantidad:</string>
+    <string name="enviar">Enviar</string>
+    <string name="resultado">Resultado: %1$.2f</string>
+</resources>
